@@ -1,0 +1,50 @@
+:root {
+  --color-dark-background: #1f2937;
+  --color-light-text: #f9faf8;
+  --color-secondary-text: #e5e7eb;
+  --color-btn-blue: #3882f6;
+
+  --font-family-roboto: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-roboto);
+  color: var(--color-secondary-text);
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--color-dark-background);
+}
+
+h1 {
+  font-size: 48px;
+  color: var(--color-light-text);
+}
+
+h2 {
+  font-size: 36px;
+  color: var(--color-dark-background);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--color-secondary-text);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

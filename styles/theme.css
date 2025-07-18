@@ -1,0 +1,11 @@
+.t-dark-bg {
+  background-color: var(--color-dark-background);
+}
+
+.t-light-bg {
+  background-color: var(--color-light-text);
+}
+
+.t-secondary-bg {
+  background-color: var(--color-secondary-text);
+}
